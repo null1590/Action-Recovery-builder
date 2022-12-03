@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_p633s07'
+        default: 'omni_p633s07'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
