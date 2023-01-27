@@ -146,10 +146,10 @@ jobs:
     - name: Set Swap Space
       uses: pierotofy/set-swap-space@master
       with:
-        swap-size-gb: 12
+        swap-size-gb: 11
 
     - name: Check Build Branch
-      if: ${{ github.event.inputs.MANIFEST_BRANCH == 'twrp-12.1' }}
+      if: ${{ github.event.inputs.MANIFEST_BRANCH == 'twrp-11' }}
       run: |
         source build/envsetup.sh
         repopick 5405 5540
